@@ -1,0 +1,87 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/*** Homepage ***/
+.nav-bar{
+	height: 110px;
+    max-height: 110px;
+    line-height: 110px;
+}
+.nav-bar .module, .nav-bar .module-group{
+	height: 110px;
+}
+.nav-bar a{
+	height: 110px;
+}
+.logo{
+	max-height: 85%;
+}
+.fixed.scrolled .nav-bar{
+	height: 60px;
+    max-height: 60px;
+    line-height: 60px;
+}
+.fixed.scrolled .nav-bar .module, .fixed.scrolled .nav-bar .module-group{
+	height: 60px;
+}
+.fixed.scrolled .nav-bar a{
+	height: 60px;
+	-o-transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+.fixed.scrolled .logo{
+	max-height: 95%;
+}
+
+.menu > li > a{
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+.menu ul > li > a,
+.fixed.scrolled .menu ul > li > a{
+	height: auto;
+}
+.fixed.scrolled .menu > li > a{
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.menu li.active > a{opacity: 1;}
+
+.schedule-call{background: #f8f8f8;}
+
+.footer-1 .logo{
+	max-height: 85px;
+}
+.footer-1 .advice-img{
+	max-height: 40px;
+	margin-top: 10px;
+}
+
+/*** Our advisors ***/
+.background-image-top{
+	background-position: center top !important;
+}
+
+.image-square.big > .content{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.image-square.big{
+	height: 75vw;
+	max-height: none;
+}
+.custom-social a{
+	font-size: 20px;
+}
+ul.ml10{padding-left: 10px;}
+.orange-text{color: #cc9933;}
+.feature-wrap{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.feature.boxed{min-height: 100%;}
+.feature .feature.boxed{margin-bottom: 0;}
